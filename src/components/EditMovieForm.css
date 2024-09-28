@@ -1,0 +1,76 @@
+/* src/components/EditMovieForm.css */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7); /* Darker overlay for better visibility */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background: #fefefe; /* Light background for the form */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners */
+    width: 400px; /* Fixed width */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slight shadow for depth */
+  }
+  
+  h2 {
+    text-align: center; /* Centered title */
+    margin-bottom: 20px; /* Space below the title */
+  }
+  
+  .required {
+    color: red; /* Red color for required fields */
+  }
+  
+  label {
+    display: block; /* Block display for labels */
+    margin-bottom: 10px; /* Space below each label */
+    font-weight: bold; /* Bold labels */
+  }
+  
+  input, textarea {
+    width: 100%; /* Full width for inputs and textarea */
+    padding: 10px; /* Padding for input fields */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 4px; /* Rounded corners */
+    margin-bottom: 15px; /* Space below input fields */
+    box-sizing: border-box; /* Box sizing to include padding and border in width */
+  }
+  
+  textarea {
+    resize: vertical; /* Allow vertical resizing only */
+  }
+  
+  .form-actions {
+    display: flex; /* Flexbox for buttons */
+    justify-content: space-between; /* Space between buttons */
+  }
+  
+  .create-btn, .close-btn {
+    background-color: #3498db; /* Button color */
+    color: white; /* Button text color */
+    border: none; /* No border */
+    padding: 10px 15px; /* Padding for buttons */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Transition for hover effect */
+  }
+  
+  .create-btn:hover, .close-btn:hover {
+    background-color: #2980b9; /* Darker shade on hover */
+  }
+  
+  .close-btn {
+    background-color: #e74c3c; /* Red color for close button */
+  }
+  
+  .close-btn:hover {
+    background-color: #c0392b; /* Darker shade for close button on hover */
+  }
+  

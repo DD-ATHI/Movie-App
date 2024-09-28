@@ -1,0 +1,11 @@
+/* src/App.css */
+.App {
+  text-align: center;
+}
+
+.movie-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+

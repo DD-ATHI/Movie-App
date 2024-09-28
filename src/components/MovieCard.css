@@ -1,0 +1,33 @@
+/* src/components/MovieCard.css */
+.movie-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px;
+  width: 200px; /* Keep the card width consistent */
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+}
+
+.card-content {
+  margin: 10px 0;
+}
+
+.movie-image {
+  width: 100%; /* Make the image width the same as the card */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.edit-btn {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
